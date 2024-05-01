@@ -1,0 +1,36 @@
+body {
+  background-color: #95591c;
+  margin: 0;
+  padding: 0;
+}
+
+#canvas {
+  position: absolute;
+
+  margin-top: 10px;
+  margin-left: 480px;
+}
+
+#score {
+  margin-top: 70px;
+  margin-left: 630px;
+  color: #ffe205;
+  font-size: 50px;
+}
+#recommencer {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  color: #f8ff32;
+  display: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #f8ff32;
+}
